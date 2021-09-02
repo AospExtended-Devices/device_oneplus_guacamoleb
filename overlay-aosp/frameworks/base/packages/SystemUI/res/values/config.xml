@@ -26,4 +26,7 @@
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
+
+    <!-- Default fod pressed color -->
+    <integer name="config_fod_pressed_color">2</integer>
 </resources>
