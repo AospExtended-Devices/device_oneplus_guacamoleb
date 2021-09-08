@@ -43,3 +43,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus7WifiOverlay
+    
+# OnePlus apps
+$(call inherit-product, vendor/oneplus/apps/guacamoleb/config.mk)
