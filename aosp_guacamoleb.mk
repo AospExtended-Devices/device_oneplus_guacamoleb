@@ -12,10 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
-
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+$(call inherit-product, vendor/aosp/common.mk)
 
 EXTRA_FOD_ANIMATIONS := true
 
