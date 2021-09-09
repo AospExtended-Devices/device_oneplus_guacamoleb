@@ -38,3 +38,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7-user 11 RKQ1.201022.002 2106290956 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+#Default to Gapps Build
+WITH_GAPPS := true
