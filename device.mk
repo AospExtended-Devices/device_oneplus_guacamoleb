@@ -28,10 +28,6 @@ PRODUCT_PACKAGES += \
 # OnePlus apps
 $(call inherit-product, vendor/oneplus/apps/guacamoleb/config.mk)
 
-# OPFeature
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackagesDevice
