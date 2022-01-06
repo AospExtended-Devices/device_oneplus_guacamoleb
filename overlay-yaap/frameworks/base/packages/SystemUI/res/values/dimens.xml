@@ -1,4 +1,0 @@
-<resources>
-    <!-- Keyguard Indication -->
-    <dimen name="keyguard_indication_margin_bottom">20dp</dimen>
-</resources>
