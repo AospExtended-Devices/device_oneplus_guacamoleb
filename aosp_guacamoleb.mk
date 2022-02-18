@@ -14,6 +14,10 @@ $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 # Inherit some common AEX stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
+ifeq ($(WITH_GAPPS), true)
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+endif
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_guacamoleb
 PRODUCT_DEVICE := guacamoleb
